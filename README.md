@@ -8,11 +8,11 @@ Please use this to generate a random password for usage. To combat the grwoing t
 My password generator allows you to choose up to 128 characters with a low of 8.
 You will also be required to choose at least 1 of the 4 special characters. 
 
-![alt text](assests/8.128.png)
-![alt text](assests/numbo.png)
-![alt text](assests/lwcs.png)
-![alt text](assests/uppc.png)
-![alt text](assests/spchar.png)
+![alt text](assets/8.128.png)
+![alt text](assets/numbo.png)
+![alt text](assets/lwcs.png)
+![alt text](assets/uppc.png)
+![alt text](assets/spchar.png)
 
 Credits. 
 As always our boot camp module is a great deal of help -https://umn.bootcampcontent.com/University-of-Minnesota-Boot-Camp/UofM-VIRT-BO-FSF-PT-04-2022-U-B
