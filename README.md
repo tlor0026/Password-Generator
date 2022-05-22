@@ -9,10 +9,10 @@ My password generator allows you to choose up to 128 characters with a low of 8.
 You will also be required to choose at least 1 of the 4 special characters. 
 
 ![alt text](Assets/8.128.PNG)
-![alt text](Assets/numbo.png)
-![alt text](Assets/lwcs.png)
-![alt text](Assets/uppc.png)
-![alt text](Assets/spchar.png)
+![alt text](Assets/numbo.PNG)
+![alt text](Assets/lwcs.PNG)
+![alt text](Assets/uppc.PNG)
+![alt text](Assets/spchar.PNG)
 
 Credits. 
 As always our boot camp module is a great deal of help -https://umn.bootcampcontent.com/University-of-Minnesota-Boot-Camp/UofM-VIRT-BO-FSF-PT-04-2022-U-B
