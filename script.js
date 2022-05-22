@@ -34,24 +34,22 @@ var generateBtn = document.querySelector("#generate");
       window.alert("NONE Added");
     }
       var selectLowcs = window.confirm("would you like Lower Case letters");
-    if (selectLowcs) {
-      var lowcs = window.alert("your password will have lower case letters");
+      if (selectLowcs) {
+        var lowcs = window.alert("your password will have lower case letters");
+      }
+      else {
+        window.alert("NONE Added");
+      }
+      var selectUpcs = window.confirm("would you like upper case letters");
+      if (selectUpcs) {
+        var upcs = window.alert("your password will have uppercase letters");
+      }
+      else {
+        window.alert("NONE Added");
+        if (Spchar === false && selectNumber === false && selectLowcs ===false && selectUpcs === false); {
+          return ("you must choose at least one character type to be in your password");
+        };
     }
-    else {
-      window.alert("NONE Added");
-    }
-    var selectUpcs = window.confirm("would you like upper case letters");
-    if (selectUpcs) {
-      var upcs = window.alert("your password will have uppercase letters");
-    }
-    else {
-      window.alert("NONE Added");
-    }
-
-    if (speccrt === false && numbo === false && lowcs ===false && upcs === false); {
-      window.alert ("you must choose at least one character type to be in your password");
-    };
-
     if (Spchar) {
       finalPass = finalPass.concat(specialCharacters);
     }
@@ -64,7 +62,7 @@ var generateBtn = document.querySelector("#generate");
     if (selectUpcs) {
       finalPass = finalPass.concat(upperCase);
     }
-
+    
     let finialization =""
     for (let i = 0; i < characterLgth; i++) {
       let random = [Math.floor(Math.random() * finalPass.length)];
